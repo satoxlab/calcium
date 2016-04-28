@@ -23,7 +23,4 @@ __Note__ that strings used in pattern matching such as w0000 are set for our fil
 
 ## Output file
 - Normalized R-GECO image file (.tiff)(from `R-GECO_local_normalization_g.R`)
- 
 
-
-- 
