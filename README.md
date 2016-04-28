@@ -1,5 +1,5 @@
 # calcium
-scripts used for preprocessing images of Ca2+ signal during Xenopus neural tube formation. These are associated with Suzuki, M. et al. (submitted).
+Scripts used for preprocessing images of Ca2+ signal during Xenopus neural tube formation. These are associated with Suzuki, M. et al. (submitted).
 
 ## Usage
 ```
@@ -15,4 +15,15 @@ Under the directory which path is `path_to_base_dir`, there must be following fi
 
 __Note__ that strings used in pattern matching such as w0000 are set for our file naming convensions. Change the strings for other file naming convensions.
 
+## Input files/directories
+- GFP multitiff file
+- R-GECO multitiff file
+- a directory containing single tiff files generated from the GFP multitiff
+- a directory containing single tiff files generated from the R-GECO multitiff
 
+## Output file
+- Normalized R-GECO image file (.tiff)(from `R-GECO_local_normalization_g.R`)
+ 
+
+
+- 
